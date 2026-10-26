@@ -1,0 +1,22 @@
+/* Nasse Fizik — ek stiller (style.css üzerine) */
+body.fizik{background:radial-gradient(1200px 700px at 80% -10%,#4b2a9a 0,transparent 60%),radial-gradient(900px 600px at -10% 20%,#0d4a8a 0,transparent 55%),#140c33}
+body.fizik header{background:rgba(20,12,51,.9)}
+body.fizik .logo b{background:linear-gradient(90deg,#a78bfa,#22d3ee);-webkit-background-clip:text;color:transparent}
+.phlab{margin:10px 0}.phcv{position:relative}.phmain{display:block;width:100%;border-radius:16px;border:1px solid var(--line)}
+.phbanner{position:absolute;left:10px;top:8px;right:10px;font-weight:800;font-size:.9rem;color:#fff;text-shadow:0 1px 4px #000;pointer-events:none}
+.phbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:8px 0}.phscrub{flex:1;min-width:140px}.phtime{font-weight:800;min-width:90px}
+.phsp select{margin-left:4px}.phgrid{display:grid;grid-template-columns:minmax(220px,1fr) minmax(0,1.6fr);gap:12px;align-items:start}
+@media(max-width:760px){.phgrid{grid-template-columns:1fr}}
+.phc{margin:6px 0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px 10px;font-weight:700;font-size:.92rem}.phc label{display:block}.phc select{width:100%;margin-top:3px}
+.phvis{background:rgba(0,0,0,.2);border-radius:12px;padding:6px 10px;margin-bottom:8px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}.chk.sm{padding:1px 8px;font-size:.82rem}
+.phrt{font-size:.82rem}.phrt td,.phrt th{padding:4px 6px}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}
+.phgraphbox{margin:10px 0;background:rgba(0,0,0,.18);border:1px solid var(--line);border-radius:14px;padding:6px}.phgbar{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:4px}.phgraph{width:100%;display:block;border-radius:10px}
+.btn.sm{padding:3px 11px;font-size:.85rem}.phgbar .btn.on{background:var(--cyan);color:#04202e}
+.phform{background:rgba(255,211,77,.08);border:1px solid var(--gold);border-radius:14px;padding:6px 14px;margin:8px 0}.phfl{display:grid;gap:4px;margin-top:4px}.fl{font-size:.95rem}
+.phdata{margin:8px 0}.phdbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.inq{display:flex;flex-wrap:wrap;gap:4px;align-items:center;margin:6px 0 12px}.isp{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:3px 12px;font-size:.85rem;font-weight:800;color:var(--mut)}.isp.on{background:linear-gradient(90deg,#7c4dff,#22d3ee);color:#fff;border-color:transparent}
+.hopt{display:block;cursor:pointer}.hopt input{margin-right:6px}textarea{width:100%;font:inherit;color:var(--txt);background:#0b2a4f;border:1px solid var(--line);border-radius:10px;padding:6px 8px;resize:vertical}
+body.fizik textarea{background:#241552}textarea.ok{border-color:var(--green)}textarea.bad{border-color:#ff5a6e}
+.step{border-left:4px solid #7c4dff;padding:2px 14px;margin:12px 0;border-radius:0 12px 12px 0;background:rgba(255,255,255,.04)}
+.tasks{padding-left:20px}.tasks li{margin:3px 0}.lockmsg{background:rgba(255,200,60,.12);border:1px dashed var(--gold);border-radius:12px;padding:10px 14px;font-weight:800;text-align:center}
+.rub{margin:6px 0;font-weight:700}.rub.ok{color:#6ee7a0}.rub.bad{color:#ff9aa8}.rubl{list-style:none;padding-left:4px;margin:3px 0}.rubl li.ok{color:#6ee7a0}.rubl li.bad{color:#cfd8e8}

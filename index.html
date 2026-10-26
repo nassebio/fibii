@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#06182f">
+<meta name="description" content="Nasse: 11. sınıf Biyoloji ve Fizik. 3B modeller, simülasyonlar, oyunlar ve kaçış odası.">
+<title>Nasse · Biyoloji ve Fizik</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.pick{max-width:1000px;margin:0 auto;padding:30px 16px 40px;text-align:center}
+.pick h1{font-size:clamp(2.2rem,7vw,3.6rem);margin:.1em 0}.pick h1 b{background:linear-gradient(90deg,var(--cyan),var(--green),var(--gold));-webkit-background-clip:text;color:transparent}
+.pick .q{font-size:1.25rem;color:var(--mut);margin:.2em 0 1.2em}
+.cards2{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px}
+.big{position:relative;display:block;text-decoration:none;color:var(--txt);border-radius:26px;padding:28px 22px 24px;border:1px solid var(--line);overflow:hidden;transition:.2s;text-align:left;min-height:300px}
+.big:hover{transform:translateY(-6px) scale(1.01)}
+.big .ic{font-size:4.2rem;line-height:1}.big h2{font-size:2.1rem;margin:.2em 0}.big p{margin:.3em 0;color:#d6e8ff}
+.big ul{padding-left:18px;margin:.6em 0;color:#cfe3ff;font-size:.95rem}
+.big .go{display:inline-block;margin-top:10px;background:#fff;color:#06182f;border-radius:99px;padding:8px 20px;font-family:'Baloo 2';font-weight:800}
+.bio{background:linear-gradient(145deg,#0b6b5f,#0b3c6f)}.fiz{background:linear-gradient(145deg,#6a2fb3,#133f8f)}
+.big:after{content:attr(data-bg);position:absolute;right:-10px;bottom:-30px;font-size:9rem;opacity:.12}
+.esc{display:block;margin:20px auto 0;max-width:620px;text-decoration:none;color:var(--txt);background:linear-gradient(90deg,#7a3b00,#7a0f3b);border:1px solid var(--gold);border-radius:20px;padding:14px 20px;font-weight:800;font-family:'Baloo 2';font-size:1.15rem}
+.esc small{display:block;font-family:Nunito;font-weight:600;color:#ffe9b5}
+.credit2{margin-top:26px;color:var(--mut);font-size:.9rem}
+</style>
+</head>
+<body>
+<main class="pick">
+  <div style="font-size:2.4rem">🧬 ⚛️</div>
+  <h1><b>Nasse</b></h1>
+  <p class="q">Bugün hangi dersi çalışmak istersin?</p>
+  <div class="cards2">
+    <a class="big bio" href="biyoloji.html" data-bg="🧬">
+      <div class="ic">🧬</div><h2>Biyoloji</h2>
+      <p>11. sınıf · Duyu reseptörleri ve duyu organları, nöron ve sinaps</p>
+      <ul><li>Detaylı 3B organ modelleri</li><li>Simülasyonlar ve oyunlar</li><li>Bağlam temelli sorular</li></ul>
+      <span class="go">Biyolojiye gir →</span>
+    </a>
+    <a class="big fiz" href="fizik.html" data-bg="⚛️">
+      <div class="ic">🚀</div><h2>Fizik</h2>
+      <p>11. sınıf · Atışlar: serbest düşme, düşey, yatay, eğik ve eğik düzlemde atış</p>
+      <ul><li>Hipotez kur → dene → sonuçlandır simülasyonları</li><li>Konu anlatımı ve soru bankası</li><li>Açık uçlu bağlam soruları</li></ul>
+      <span class="go">Fiziğe gir →</span>
+    </a>
+  </div>
+  <a class="esc" href="escape.html">🔐 Biyo-Fizik Kaçış Odası <small>İki dersin bulmacalarını çöz, süre dolmadan laboratuvardan kaç!</small></a>
+  <div class="credit2">Los Galacticos · Barış Köseoğlu</div>
+</main>
+</body>
+</html>
